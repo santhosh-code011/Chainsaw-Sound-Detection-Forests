@@ -1,0 +1,30 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+
+# Audio data and caches
+data/
+temp/
+*.wav
+*.tmp
+
+# Generated model weights and plots (recreated via python train.py)
+*.pt
+*.pth
+training_curves.png
+confusion_matrix.png
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
